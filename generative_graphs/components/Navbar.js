@@ -12,9 +12,9 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className='flex gap-5 p-4 font-bold text-xl'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li className='hover:underline hover:cursor-pointer'>Home</li>
+                    <li className='hover:underline hover:cursor-pointer'>About</li>
+                    <li className='hover:underline hover:cursor-pointer'>Contact</li>
                 </ul>
             </div>
         </nav>
